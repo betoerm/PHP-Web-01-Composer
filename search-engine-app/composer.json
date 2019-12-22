@@ -1,4 +1,7 @@
-{
+{    
+    "name": "Search-engine",
+    "description": "a search engine with wikipedia",
+    
     "autoload": {
         "psr-4": {
             "App\\": "src"
