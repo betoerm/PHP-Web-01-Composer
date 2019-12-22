@@ -16,7 +16,7 @@ class WikipediaEngineTest extends TestCase
         $content = file_get_contents(__DIR__ . '/../../../Resources/fixtures/wikipedia.html');
         $client = new MockHttpClient([new MockResponse($content)]);
         $engine = new WikipediaEngine(new WikipediaParser(), $client);
-        $result = $engine->search('bdd');
+        $result = $engine->search('macbook');
         $this->assertSame(22, $result->count());
     }
 }
