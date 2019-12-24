@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Validar arquivos composer.[json|lock]
-      run: cd search-engine-app && cd composer validate
+      run: cd 01-Composer && cd composer validate
 
     - name: Instalar dependências
       run: cd 01-Composer && composer install --prefer-dist --no-progress --no-suggest
