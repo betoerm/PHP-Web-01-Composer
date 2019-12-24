@@ -1,5 +1,5 @@
 {
-    "name": "Search-engine",
+    "name": "01-composer/search-engine-app",
     "description": "a search engine with wikipedia",
     "autoload": {
         "psr-4": {
